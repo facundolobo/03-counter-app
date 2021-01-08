@@ -9,12 +9,13 @@ const PrimeraApp = ({saludo,subtitulo}) => {
     return (
             <>
             
-            <h1>{saludo}</h1>
-            <p>{subtitulo}</p>
+            <h1>{ saludo }!!!</h1>
+            {/* <pre>{JSON.stringify(saludo,null,3) }</pre> */}
+            <p>{ subtitulo }</p>
              
             </>
             );
-      
+        
 
 }
 // con esto digo q tiene q venir un string si es que se envia algo
@@ -23,7 +24,7 @@ PrimeraApp.propTypes = {
     
 }   
 PrimeraApp.defaultProps = {
-    subtitulo: 'sub'
+    subtitulo: 'Soy un subtitulo'
     
 }   
 
